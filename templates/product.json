@@ -291,7 +291,7 @@
         "custom_liquid_JW6qmQ": {
           "type": "custom_liquid",
           "settings": {
-            "custom_liquid": "{{ product.description }}"
+            "custom_liquid": ""
           }
         }
       },
