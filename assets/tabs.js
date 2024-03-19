@@ -183,7 +183,7 @@ class ProductTabs extends HTMLElement {
 
     onBackgroundClick(event) {
         if (event.target.closest('toggle-content.is-show') != null) return 
-       // document.querySelector('.toggleLink.is-open')?.classList.remove('is-open');
+        document.querySelector('.toggleLink.is-open')?.classList.remove('is-open');
         document.querySelector('.toggle-content.is-show')?.classList.remove('is-show');
         document.body.classList.remove('tab-popup-show');
     }
@@ -191,7 +191,7 @@ class ProductTabs extends HTMLElement {
     handleVerticalPopupClose(event) {
         const icon = event.target 
         icon.closest('.toggle-content').classList.remove('is-show')
-     //   icon.closest('.tab-content').querySelector('.toggleLink').classList.remove('is-open')
+        icon.closest('.tab-content').querySelector('.toggleLink').classList.remove('is-open')
         document.body.classList.remove('tab-popup-show')
     } 
 }
