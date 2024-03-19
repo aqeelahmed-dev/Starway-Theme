@@ -287,6 +287,12 @@
           "disabled": true,
           "settings": {
           }
+        },
+        "custom_liquid_JW6qmQ": {
+          "type": "custom_liquid",
+          "settings": {
+            "custom_liquid": "{{ product.description }}"
+          }
         }
       },
       "block_order": [
@@ -310,7 +316,8 @@
         "058d88b7-6cce-4aae-a5c4-b8193bbdfa7f",
         "ab8df349-85f8-466a-bc50-4bf24c831417",
         "d9cd099f-56ea-4a62-9f8f-ec00dcaae6b2",
-        "judge_me_reviews_review_widget_eHU6iK"
+        "judge_me_reviews_review_widget_eHU6iK",
+        "custom_liquid_JW6qmQ"
       ],
       "custom_css": [
         "@media screen and (max-width: 767px) {.quantity__container {width: 100%; }}"
