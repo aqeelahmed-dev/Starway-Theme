@@ -1,0 +1,66 @@
+<style>
+  .new-whatsapp{
+	position: fixed;
+  width: 50px;
+  height: 50px;
+  bottom: 40px;
+  right: 40px;
+  text-align: center;
+  font-size: 30px;
+  box-shadow: 3px 3px 3px #999;
+  z-index: 100;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #25d366;
+  color: #FFF;
+  border-radius: 5px;
+}
+
+.new-float{
+  height:40px;
+  width:40px;
+}
+
+@media(max-width:768px){
+  .new-whatsapp {
+    position: fixed;
+    width: 50px;
+    height: 50px;
+    bottom: 70px;
+    right: 25px;
+  }
+}
+</style>
+{% if section.settings.show_whatsapp %}
+<a href="https://api.whatsapp.com/send?phone={{ section.settings.whatsapp_number }}&text={{ section.settings.whatsapp_msg }}%20
+{{ shop.url }}{{ product.url }}" class="new-whatsapp" target="_blank"> 
+<img class="new-float" src="https://cdn.shopify.com/s/files/1/0827/9022/0092/files/icons8-whatsapp-64.png?v=1704134262" alt="WhatsApp Icon">
+  
+</a>
+  {% endif %}
+{% schema %}
+  {
+    "name": "Floating Whatsapp",
+    "settings": [
+      {
+  "type": "checkbox",
+  "id": "show_whatsapp",
+  "label": "Show Whatsapp",
+  "default": true
+},
+      {
+  "type": "text",
+  "id": "whatsapp_number",
+  "label": "Please Enter Your Phone Number"
+},
+            {
+  "type": "text",
+  "id": "whatsapp_msg",
+  "label": "Please Enter Your Msg"
+}
+
+
+    ]
+  }
+{% endschema %}
