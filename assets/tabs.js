@@ -180,7 +180,7 @@ class ProductTabs extends HTMLElement {
             }
         }
     }
-/*
+
     onBackgroundClick(event) {
         if (event.target.closest('toggle-content.is-show') != null) return 
         document.querySelector('.toggleLink.is-open')?.classList.remove('is-open');
@@ -193,7 +193,7 @@ class ProductTabs extends HTMLElement {
         icon.closest('.toggle-content').classList.remove('is-show')
         icon.closest('.tab-content').querySelector('.toggleLink').classList.remove('is-open')
         document.body.classList.remove('tab-popup-show')
-    } */
+    } 
 }
 
 customElements.define('product-tab', ProductTabs);
