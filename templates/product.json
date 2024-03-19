@@ -56,11 +56,13 @@
         },
         "8cba3131-b335-4f29-ab2a-73fabf235dde": {
           "type": "shopify:\/\/apps\/judge-me-reviews\/blocks\/preview_badge\/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
+          "disabled": true,
           "settings": {
           }
         },
         "4f95b592-8369-4ab0-b30d-24e463fb6890": {
           "type": "price",
+          "disabled": true,
           "settings": {
             "fontsize_text": 20,
             "spacing_top": 12,
@@ -86,6 +88,7 @@
         },
         "d98e243b-3682-495a-965a-1c7f7d460880": {
           "type": "variant_picker",
+          "disabled": true,
           "settings": {
             "picker_type": "button",
             "show_variant_image_group": false,
@@ -98,6 +101,7 @@
         },
         "04ea8843-f461-4f1d-8ea4-43f62fdfb21e": {
           "type": "perks",
+          "disabled": true,
           "settings": {
             "spacing_top": 5,
             "spacing_bottom": 5,
@@ -111,6 +115,7 @@
         },
         "faa2b3e6-c0a1-4269-baa6-d2605efe4c05": {
           "type": "quantity_selector",
+          "disabled": true,
           "settings": {
             "qty_style": "1",
             "qty_layout": "2",
@@ -120,6 +125,7 @@
         },
         "02cb3b30-4cd1-4ac8-84c0-077f1cc163f2": {
           "type": "customer_viewing",
+          "disabled": true,
           "settings": {
             "customer_viewing_number": "283, 100, 59, 11, 14, 185, 193, 165, 50, 38, 99, 112, 46, 10, 125, 200, 250, 18",
             "customer_viewing_time": 10,
@@ -129,6 +135,7 @@
         },
         "f1b31d90-1e43-4948-9fe3-97ba43f6fb34": {
           "type": "buy_buttons",
+          "disabled": true,
           "settings": {
             "show_dynamic_checkout": false,
             "show_gift_card_recipient": false,
@@ -155,18 +162,21 @@
         },
         "92722207-732a-4b4f-b46e-ac6b3f5370be": {
           "type": "custom_liquid",
+          "disabled": true,
           "settings": {
             "custom_liquid": "{% if product.metafields.custom.whatsapp_button == true %}\n  <a href=\"https:\/\/api.whatsapp.com\/send?phone=+923394040041&text=Hi,\n  %20I%20want%20to%20order%20this%20product:%20{{ product.title }}\n  %20%20https%3A%2F%2F{{ shop.domain }}\n  %2Fproducts%2F{{ product.handle }}\">\n    <div class=\"order_whatsapp\" style=\"margin-top: 5px; margin-bottom:20px; padding: 11px; text-align: center; background-color: #1EA651; height: 44px; color:white; display: flex; align-items: center; justify-content: center;\">\n      <img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0073\/2522\/0979\/files\/whatsapp-icon.png?v=1615793565\" width=\"25px\" style=\"vertical-align:middle;\">\n      <span style=\"font-weight: bold; margin-left: 5px;\">Order On WhatsApp<\/span>\n    <\/div>\n  <\/a>\n{% endif %}"
           }
         },
         "4a44efdf-e404-4748-9eee-e81fdc5d40b1": {
           "type": "custom_liquid",
+          "disabled": true,
           "settings": {
             "custom_liquid": "<strong style=\"    display: flex; margin: auto; justify-content: center;\n}\"><\/strong>\n<img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0827\/9022\/0092\/files\/trustbadges.svg?v=1710155277\" style=\"width: 100%;\n    margin: 0;\">"
           }
         },
         "product_text_aFpJNY": {
           "type": "product_text",
+          "disabled": true,
           "settings": {
             "text": "We Accepts:",
             "text_icon": "",
@@ -199,6 +209,7 @@
         },
         "description_B8Rc8K": {
           "type": "description",
+          "disabled": true,
           "settings": {
             "open_tab_mobile": false,
             "title": "Product Information",
@@ -208,6 +219,7 @@
         },
         "3d9ea84d-5527-4bce-abe6-5debef3ec955": {
           "type": "custom",
+          "disabled": true,
           "settings": {
             "open_tab_mobile": false,
             "title": "Return and Refund Policy",
@@ -266,11 +278,13 @@
         },
         "d9cd099f-56ea-4a62-9f8f-ec00dcaae6b2": {
           "type": "shopify:\/\/apps\/judge-me-reviews\/blocks\/medals\/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
+          "disabled": true,
           "settings": {
           }
         },
         "judge_me_reviews_review_widget_eHU6iK": {
           "type": "shopify:\/\/apps\/judge-me-reviews\/blocks\/review_widget\/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
+          "disabled": true,
           "settings": {
           }
         }
