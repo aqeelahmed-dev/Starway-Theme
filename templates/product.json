@@ -69,6 +69,7 @@
         },
         "product_text_4rPbND": {
           "type": "product_text",
+          "disabled": true,
           "settings": {
             "text": "",
             "text_icon": "",
