@@ -194,6 +194,15 @@ class ProductTabs extends HTMLElement {
         icon.closest('.tab-content').querySelector('.toggleLink').classList.remove('is-open')
         document.body.classList.remove('tab-popup-show')
     }
+    // Wait for the DOM content to be fully loaded
+document.addEventListener("DOMContentLoaded", function() {
+    // Find the dropdown button element and remove the 'is-open' class
+    const dropdownButton = document.querySelector('.toggleLink');
+    if (dropdownButton) {
+        dropdownButton.classList.remove('is-open');
+    }
+});
+
 }
 
 customElements.define('product-tab', ProductTabs);
